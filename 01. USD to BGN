@@ -1,0 +1,4 @@
+function demo(input){
+    let leva = Number(input[0]) * 1.79549;
+    console.log(leva)
+}
