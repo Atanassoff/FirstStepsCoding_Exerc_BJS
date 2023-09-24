@@ -1,0 +1,7 @@
+function demo(input){
+    let deposit = Number(input[0]);
+    let months = Number(input[1]);
+    let interest = Number(input[2]);
+    let sum = deposit + months * ((deposit * interest / 100) / 12);
+    console.log(sum);
+}
