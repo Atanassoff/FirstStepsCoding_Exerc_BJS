@@ -1,9 +1,0 @@
-function demo(input){
-    let rent = Number(input[0]); 
-    let sneakers = rent * 0.6;
-    let outfit = sneakers * 0.8;
-    let ball = outfit / 4;
-    let access = ball / 5;
-    let total = rent + sneakers + outfit + ball + access;
-    console.log(total);
-}
