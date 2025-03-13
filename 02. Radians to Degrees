@@ -1,4 +1,0 @@
-function demo(input){
-    let grad = Number(input[0]) * 180 / Math.PI;
-    console.log(grad);
-}
