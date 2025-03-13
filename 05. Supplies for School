@@ -1,9 +1,0 @@
-function demo(input){
-    let pens = Number(input[0]) * 5.8; 
-    let markers = Number(input[1]) * 7.2;
-    let liquid = Number(input[2]) * 1.2;
-    let percent = Number(input[3]);
-    let sum = pens + markers + liquid;
-    let total = sum - sum * percent / 100;
-    console.log(total);
-}
